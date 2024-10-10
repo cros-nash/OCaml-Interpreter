@@ -1,0 +1,3 @@
+let eff x = trace x in
+let foo x y = () in
+foo (eff 10)(eff -2)

@@ -1,0 +1,6 @@
+let b x y z = x (y z) in 
+let c x y z = x z y in
+let k x y = x in
+let w x y = x y y in 
+let i = w k in 
+trace (i 5)

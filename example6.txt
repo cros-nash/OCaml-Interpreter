@@ -1,0 +1,7 @@
+let rec power x n =
+  if n = 0 then 1
+  else x * power x (n - 1) + x
+in
+
+trace (power 3 2);
+trace (power 10 10)

@@ -1,0 +1,1 @@
+trace 1; trace (); trace true

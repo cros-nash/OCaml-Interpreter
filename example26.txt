@@ -1,0 +1,7 @@
+let rec funny2v2 x y z a b c = 
+    if x > y then 3
+    else if x > z then 1000
+    else (x + y + funny2v2(x + 1)(y-1)(z+2)(a-2)(b*3)(c) + b * a * z + (funny2v2(x + 3)(y-1)(z+2)(a-2)(b*3)(c)))/c
+
+in 
+trace (funny2v2 1 10 11 12 13 10)

@@ -1,0 +1,2 @@
+let res = 1 > 2 || 5 > 4 || 6 < 2 in
+trace(res)

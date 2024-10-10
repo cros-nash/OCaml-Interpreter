@@ -1,0 +1,9 @@
+let b x y z = x (y z) in 
+let c x y z = x z y in
+let k x y = x in
+let w x y = x y y in 
+let i x = x in 
+let k x y = x in 
+let k1 x y = y in 
+let s x y z = x z (y z) in
+trace ((w k) 1 = i 1)

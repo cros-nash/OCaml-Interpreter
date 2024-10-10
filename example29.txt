@@ -1,0 +1,3 @@
+let one = 1 in
+let two = 2 in
+trace (two mod one)

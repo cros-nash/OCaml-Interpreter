@@ -1,0 +1,6 @@
+let apply_twice f x =
+  f (f x)
+in
+
+trace (apply_twice (fun x -> x * x) 3);
+trace (apply_twice (fun x -> x + x) 2)

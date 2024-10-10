@@ -1,0 +1,5 @@
+let rec lmfao x r = 
+    if r <= 0 then 1
+    else x - lmfao(x-3)(r - 1) + lmfao(x+1)(r - 3)
+in
+trace (lmfao 10 10)

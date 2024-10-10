@@ -1,0 +1,5 @@
+let i x = x in 
+let k x y = x in 
+let k1 x y = y in 
+let s x y z = x z (y z) in
+trace ((s k i (k i s)) 1)

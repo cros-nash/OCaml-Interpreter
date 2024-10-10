@@ -1,0 +1,7 @@
+let rec is_even x =
+  if x = 0 then true else 
+    if x > 0 then
+      is_even (x - 2)
+    else false
+in
+trace (is_even 1000)

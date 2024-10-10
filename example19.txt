@@ -1,0 +1,4 @@
+let x = 111 in
+let y = 10 in
+let easier = x mod y in
+trace(easier)

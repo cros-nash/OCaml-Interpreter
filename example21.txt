@@ -1,0 +1,3 @@
+let f x y = trace y in 
+let a x y = () in 
+a (f 0) (f 1)

@@ -1,0 +1,4 @@
+let rec decide a b c = 
+  if a = b then c else decide (a+1) b (c+1)
+in
+trace (decide 0 100 0)

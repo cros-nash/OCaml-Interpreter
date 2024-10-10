@@ -1,0 +1,3 @@
+let f x = x + 1 in 
+let g _ = 1 in
+trace (f (g ()))

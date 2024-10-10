@@ -1,0 +1,6 @@
+let apply_four f x =
+  f(f(f (f x)))
+in
+
+trace (apply_four (fun x -> x * x) 3);
+trace (apply_four (fun x -> x + x) 4)

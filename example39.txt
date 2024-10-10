@@ -1,0 +1,6 @@
+let mul m k q =  
+let rec loop acc k = 
+  if k = 0 then acc
+  else loop ((acc * m) mod q) (k-1)
+in loop 1 k
+in trace (mul 2 100 10000007)

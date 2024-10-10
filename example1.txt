@@ -1,0 +1,7 @@
+let i x = x in 
+let k x y = x in 
+let k1 x y = y in 
+let s x y z = x z (y z) in
+let example = s k i k in 
+let application = example 1 2 in
+trace application
